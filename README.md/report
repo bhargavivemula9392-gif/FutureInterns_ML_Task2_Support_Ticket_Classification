@@ -1,0 +1,35 @@
+# Support Ticket Classification & Prioritization
+
+## Objective
+Build a machine learning model to classify support tickets and predict ticket priorities.
+
+## Tools Used
+- Python
+- Pandas
+- NLTK
+- Scikit-learn
+- Matplotlib
+- Jupyter Notebook
+
+## Dataset
+Customer Support Ticket Dataset (Kaggle)
+
+## Workflow
+1. Data Loading
+2. Data Exploration
+3. Text Cleaning
+4. TF-IDF Vectorization
+5. Ticket Type Classification
+6. Priority Prediction
+7. Model Evaluation
+
+## Results
+
+### Ticket Type Classification
+Accuracy: 19.42%
+
+### Priority Prediction
+Accuracy: 25.62%
+
+## Conclusion
+The dataset was processed using NLP techniques and TF-IDF vectorization. Multinomial Naive Bayes models were trained for ticket classification and priority prediction. The results indicate that the available text features have a weak relationship with the target labels, limiting predictive performance.
